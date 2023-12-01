@@ -1,0 +1,194 @@
+body {
+    background-color: #9CAF88;
+    height: 125vh; /* Ensure the entire viewport height is covered */
+    
+    margin: 0; /* Remove default margin */
+    background-image: url('../Images/Untitled-10\ 01\ Artboard\ 1\ \(1\).jpg');
+    margin-bottom: 50px; 
+    font-family: 'Patua One';
+}
+
+h1 {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-family: 'Patua One';
+    font-size: 80px;
+    color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #505139;
+    text-shadow: 2px 3px #73865e;
+}
+
+header h2 {
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: end;
+    font-family: 'Patua One';
+    margin-right: 415px;
+}
+
+nav ul{
+    display: inline-block;
+    flex-direction: column;
+    text-align: center;
+    margin-right: 30px;
+    list-style: none;
+    font-family: 'Patua One';
+}
+
+nav li {
+    display: inline-block;
+    padding: 10px;
+    width: 150px;
+    height: 50px;
+    box-sizing: border-box;
+    background-color: #4d6048;
+    border-radius: 7px;
+    border: 2px solid #F3FBEF;
+    margin: 20px;
+    box-shadow: 2px 2px 5px #4D543B, inset 0px 0px 7px rgba(0, 0, 0, 0.3);  
+    margin-bottom: 10px;  
+    font-family: 'Patua One';
+}
+
+nav a {
+    color: #e8e5e0;
+    font-family: 'Patua One';
+    letter-spacing: 2px;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+nav li.active {
+    background-color: #4D543B;
+    border: 2px solid #F3FBEF;
+}
+
+nav li.active a{
+    color: #F3FBEF;
+    text-decoration: underline;
+}
+
+nav a:hover, nav a:focus{
+    text-decoration: underline;
+}
+
+.books {
+    margin-top: 70px;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(6, 1fr);
+    gap: 50px;
+}
+
+.book1 {
+    grid-column: 2;
+}
+
+.book2 {
+    grid-column: 3;
+}
+
+.book3 {
+    grid-column: 4;
+}
+
+.book4 {
+    grid-column: 5;
+}
+
+.book5 {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.book6 {
+    grid-column: 3;
+    grid-row: 2;
+}
+
+.book7 {
+    grid-column: 4;
+    grid-row: 2;
+}
+
+.book8 {
+    grid-column: 5;
+    grid-row: 2;
+}
+
+.book9 {
+    grid-column: 3;
+    grid-row: 3;
+}
+
+.book10 {
+    grid-column: 4;
+    grid-row: 3;
+}
+
+.end {
+    margin-top: 200px;
+}
+
+.bookback {
+    justify-content: center;
+    align-content: center;
+    background-color: #e8e5e0;
+    width: 250px;
+    height: 350px;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.3);
+}
+
+.pics {
+    margin-left: 25px;
+    margin-top: 20px;
+    border-radius: 4px;
+    position: absolute;
+    z-index: 2;
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.3);
+    transition: transform 0.5s ease-in-out;
+}
+
+
+.booktext {
+    position: relative; 
+    z-index: 1; 
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 20px;
+}
+
+.pics:hover {
+    transform: translateX(-110%); /* Slide the image to the right on hover */
+}
+
+.songback {
+    justify-content: center;
+    align-content: center;
+    background-color: #e8e5e0;
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.3);
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.3);
+}
+
+.songpic {
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 25px;
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.3);
+    transition: transform 0.5s ease-in-out;
+}
+
+.songpic:hover {
+    transform: translateX(-110%); /* Slide the image to the right on hover */
+}
