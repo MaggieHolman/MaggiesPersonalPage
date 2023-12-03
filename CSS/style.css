@@ -68,7 +68,7 @@ border-image-slice: 1;
     align-items: center; /* Vertically center the content */
     justify-content: center; /* Horizontally center the content */
     z-index: 1000; /* Set a high z-index to ensure it appears above other content */
-    font-size: xxx-large;
+    font-size: 40px;
     left: 50%;
     transform: translateX(15%);
     padding: 20px; /* Add padding for content inside the div */
