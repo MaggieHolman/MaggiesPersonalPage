@@ -17,7 +17,7 @@ body {
 .center {
     /* Your styles for the centered div */
     width: 325px;
-    height: 450px;
+    height: 485px;
     background-color: #f6e5ce;
     text-align: center;
     border-radius: 50px;
@@ -61,7 +61,7 @@ border-image-slice: 1;
 
 .header {
     top: 0;
-    width: 72%;
+    width: 1050px;
     height: 175px; /* Set a specific height for the header */
     background-color: #f6e5ce; /* Set your desired background color */
     display: flex;
