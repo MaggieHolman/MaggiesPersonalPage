@@ -162,7 +162,7 @@ nav a:hover, nav a:focus{
     z-index: 1; 
     margin-left: 25px;
     margin-right: 25px;
-    margin-top: 20px;
+    margin-top: 24px;
 }
 
 .pics:hover {
@@ -187,6 +187,7 @@ nav a:hover, nav a:focus{
     margin-left: 25px;
     box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.3);
     transition: transform 0.5s ease-in-out;
+    z-index: 2;
 }
 
 .songpic:hover {
